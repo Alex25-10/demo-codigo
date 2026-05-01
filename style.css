@@ -319,6 +319,14 @@ img {
   font-weight: 600;
 }
 
+.hero-microcopy {
+  font-size: 0.9rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
 .hero-image {
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -352,6 +360,15 @@ img {
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
+}
+
+.trust-urgency {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-top: 16px;
+  width: 100%;
 }
 
 .trust-item {
@@ -510,6 +527,14 @@ img {
   padding: 48px;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
+}
+
+.calc-lead {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-bottom: 24px;
 }
 
 .calc-step {
@@ -778,6 +803,27 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 24px;
+}
+
+.cta-urgency {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cta-trust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
 }
 
 .cta-phone {
